@@ -54,9 +54,10 @@ func ensurePythonPackages() {
 		cmd.Stderr = os.Stderr
 		cmd.Run()
 	}
-	fmt.Println("\033[1;32mInstalling Python Discord packages...\033[0m")
+	fmt.Println("\033[1;32mInstalling Python Discord packages and dotenv...\033[0m")
 	exec.Command("python3", "-m", "pip", "install", "--upgrade", "discord.py").Run()
 	exec.Command("python3", "-m", "pip", "install", "--upgrade", "py-cord").Run()
+	exec.Command("python3", "-m", "pip", "install", "--upgrade", "python-dotenv").Run()
 }
 
 func ensureNodePackages() {
@@ -67,7 +68,7 @@ func ensureNodePackages() {
 		cmd.Stderr = os.Stderr
 		cmd.Run()
 	}
-	fmt.Println("\033[1;32mInstalling Node.js Discord packages...\033[0m")
+	fmt.Println("\033[1;32mInstalling Node.js Discord packages and dotenv...\033[0m")
 	exec.Command("npm", "install", "-g", "discord.js", "dotenv").Run()
 }
 
