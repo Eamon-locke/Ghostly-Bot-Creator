@@ -26,8 +26,8 @@ end
 
 local function runCustomCommands()
   print("\nSetting executable permission and running Custom-Commands-Bot.sh...")
-  os.execute("chmod +x Custom-Commands-Bot.sh")
-  os.execute("./Custom-Commands-Bot.sh")
+  os.execute("chmod +x features/Custom-Commands-Bot.sh")
+  os.execute("./features/Custom-Commands-Bot.sh")
 end
 
 local function main()
