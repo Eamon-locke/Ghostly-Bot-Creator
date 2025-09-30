@@ -37,7 +37,7 @@ curl -O https://raw.githubusercontent.com/Eamon-locke/Ghostly-Bot-Creator/refs/h
 
 ```
 your-bot-directory/
-├── bot.py (or bot.js)
+├── bot.py (or bot.js or index.js)
 ├── config.json
 ├── requirements.txt (Python) or package.json (JavaScript)
 └── README.md
@@ -45,7 +45,13 @@ your-bot-directory/
 
 ## 🛠️ Version History
 
-### v25.02 (Current)
+### v25.03 (Current)
+
+
+• Ensures that all Major Unix/Linux Shells including Bash, Zsh, Fish, Csh, Tcsh, Ksh Exists 
+• Check or if uninstalled, installs Discord.py, Discord.js, py-cord, python-dotenv, dotenv latest versions
+
+### v25.02
 
 • Complete Rewrite in Go - Faster and more efficient
 • Beautiful New Menu Interface - Enhanced user experience
@@ -96,10 +102,9 @@ This project is open source and available under the MIT License.
 
 💡 Why Ghostly Bot Creator?
 
-- Simplicity: No complex setup or hosting required
 - Specialization: Focused, single-feature bots perform better
 - Flexibility: Choose your preferred programming language
-- Learning Friendly: Clean, readable code perfect for beginners
+- Learning Friendly: Clean, readable code 
 - Production Ready: Generated code follows best practices
 - Customization: The generated code is completely customizable to your preferences.
 
